@@ -10,18 +10,15 @@ int main()
     printf("Enter the value of c >> ");
     scanf("%f", &c);
 
-    if(a > b && b > c)
-    {
+    if (a > b && b > c)
         printf("%.2f is the greatest of the three numbers.", a);
-    }
-    if(b > a && a > c)
-    {
+    
+    else if (b > a && a > c)
         printf("%.2f is the greatest of the three numbers.", b);
-    }
-   else
-   {
+    
+    else
       printf("%.2f is the greatest of the three numbers.", c);   
-   }
+   
 
 return 0;
 }
